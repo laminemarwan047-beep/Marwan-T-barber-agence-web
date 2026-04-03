@@ -1,0 +1,179 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 30px;
+}
+
+.navbar h1 {
+    color: #d4af37;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #d4af37;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* BOUTON */
+.btn {
+    display: inline-block;
+    background: #d4af37;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    text-align: center;
+}
+
+.feature img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* SERVICES */
+.services h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* ABOUT */
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* FORMULAIRE */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    margin-top: 20px;
+}
