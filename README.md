@@ -11,4 +11,4 @@ Ben Lamine - 1re Année Bachelor Dev. Web
 - CSS3
 
 ## Site en ligne 
-https://github.com/laminemarwan047-beep/Marwan-T-barber-agence-web.git
+https://laminemarwan047-beep.github.io/Marwan-T-barber-agence-web/
